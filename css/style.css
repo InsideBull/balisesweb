@@ -3146,7 +3146,7 @@ ul {
     position: fixed;
     z-index: 9999 !important;
     width: 100%;
-    background-color: #6c757d;
+    background-color: #d8e5f0;
     top: 0;
 }
 
@@ -3328,7 +3328,7 @@ ul {
     content: "";
     left: 0;
     bottom: 0;
-    background: url("../img/banner_overlay_2.png") top right no-repeat;
+    /*background: url("../img/banner_overlay_2.png") top right no-repeat;*/
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -3370,7 +3370,7 @@ ul {
     content: "";
     left: 0;
     bottom: 0;
-    background: url("../img/banner_overlay_1.png") bottom left no-repeat;
+    /*background: url("../img/banner_overlay_1.png") bottom left no-repeat;*/
     width: 100%;
     height: 100%;
     z-index: -1;
