@@ -26,6 +26,18 @@ body {
     font-size: 14px;
 }
 
+.banner_text h3 {
+    font-size: 70px !important;
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 300 !important;
+    text-transform: none !important; 
+    line-height: 68px !important;
+}
+
+.second {
+    margin-top: 10px;
+}
+
 
 /* line 9, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_common.scss */
 
