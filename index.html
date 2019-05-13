@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="css/all.css">
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link href="js/assets/animate.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -44,13 +46,16 @@
                                     <a class="nav-link" href="#home">Accueil</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#service">Services</a>
+                                    <a class="nav-link" id="nav-link" href="#service">Services</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#last-project">Portfolio</a>
+                                    <a class="nav-link" id="portfolio" href="#last-project">Portfolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#contact">Contact</a>
+                                    <a class="nav-link" id="nav-link" href="#team">Equipes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-link" href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -68,7 +73,7 @@
                 <div class="col-xl-6 col-md-6">
                     <div class="banner_text">
                         <div class="banner_text_iner text-center">
-                            <h3>Osez changer le futur avec Balisesweb </h3>
+                            <h3 class="tlt">Osez changer le futur avec Balisesweb </h3>
                         </div>
                     </div>
                 </div>
@@ -207,7 +212,7 @@
                     <div class="single_work">
                         <div class="row align-items-center">
                             <div class="offset-lg-1 col-lg-4 col-md-6">
-                                <div class="single_work_demo">
+                                <div class="single_work_demo albova">
                                     <h5>ALBOVA</h5>
                                     <h3>Les meilleurs services de beauté</h3>
                                     <p>Albova vous offres : des services de bonne qualité et professionnel : ils sont notés et commentés par les clients. Comme ça vous savez chez qui vous mettez la tête ou qu’elle personne vous commandez chez vous. </p>
@@ -229,7 +234,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
-                                <div class="single_work_demo">
+                                <div class="single_work_demo helene">
                                     <h5>HELENE MASSAGE</h5>
                                     <h3>Relaxation et détante</h3>
                                     <p>Massage relaxant traditionnelle est conseillé pour les personnes qui ont besoins de se relâcher de son quotidien et aussi a aidé à retrouver le sommeil, se rafraîchir le corps et l’esprit. En gros : le tonus à porter
@@ -245,7 +250,76 @@
     </section>
     <!-- upcoming_event part start-->
 
-    <!-- happy_client counter start -->
+     <!-- team_member part start-->
+    
+     <!-- cta part start-->
+    <section class="cta_part" style="margin-top: -20%;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="cta_part_iner">
+                        <div class="cta_part_text">
+                            <p>Notre équipe</p>
+                            <h1>Des developpeurs experimentés dans son domaines d'expertise</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team_member_section section_padding" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single_team_member">
+                        <img src="img/team/team_1.jpg" alt="">
+                        <div class="single_team_text">
+                            <h3><a href="#"> Harouna Chamassi </a></h3>
+                            <p>Developpeur web</p>
+                            <div class="team_member_social_icon">
+                                <a href="#">facebok</a>
+                                <a href="#">twitter</a>
+                                <a href="#">skype</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single_team_member">
+                        <img src="img/team/team_2.png" style="height: 310px;" alt="">
+                        <div class="single_team_text">
+                            <h3><a href="#">Andry Radimison</a></h3>
+                            <p>Developpeur mobile</p>
+                            <div class="team_member_social_icon">
+                                <a href="#">facebok</a>
+                                <a href="#">twitter</a>
+                                <a href="#">skype</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single_team_member">
+                        <img src="img/team/team_3.jpg" style="height: 310px;" alt="">
+                        <div class="single_team_text">
+                            <h3><a href="#">Ali soulaiman</a></h3>
+                            <p>Developpeur progiciel</p>
+                            <div class="team_member_social_icon">
+                                <a href="#">facebok</a>
+                                <a href="#">twitter</a>
+                                <a href="#">skype</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- team_member part end-->
+
+
+    <!-- happy_client counter start 
     <section class="happy_client" id="happy_client">
         <div class="container">
             <div class="row" style="margin-left: 20%">
@@ -273,7 +347,7 @@
             </div>
         </div>
     </section>
-    <!-- happy_client counter end -->
+    happy_client counter end -->
 
     <!-- ================ contact section start ================= -->
     <section class="contact-section section_padding" id="contact">
@@ -345,13 +419,13 @@
     <footer class="footer-area" id="footer">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-sm-6 col-md-6 col-xl-4">
+                <div class="col-sm-6 col-md-6 col-xl-5" style="margin-top: -75px;">
                     <div class="single-footer-widget footer_2">
                         <a href="#home"><img src="img/balise-logo.png" alt=""> </a>
-                        <p>Balisesweb est une agence web offshore. Balisesweb apporte son expertise aux startups, aux jeunes entrepreneurs et à tous les particulieres oeuvrant dans le digitale </p>
+                        <p class="text-center">Balisesweb est une agence web offshore. Balisesweb apporte son expertise aux startups, aux jeunes entrepreneurs et à tous les particulieres oeuvrant dans le digitale </p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-6 col-xl-4">
+                <div class="col-sm-6 col-md-6 col-xl-5">
                     <div class="single-footer-widget footer_2">
                         <h4>Newsletter</h4>
                         <p>Restez à jour avec nos dernières tendances et nos offres.
@@ -400,6 +474,33 @@
     </footer>
     <!-- footer part end-->
 
+    <script src="js/scrollreveal.js"></script>
+
+    <script type="text/javascript">
+        var slideUp = {
+            distance: '200%',
+            origin: 'right',
+            opacity: null
+        };
+
+        ScrollReveal().reveal('.single_service_part_iner', slideUp);
+        ScrollReveal().reveal('.demo_img', slideUp);
+        ScrollReveal().reveal('.banner_text', slideUp);
+        ScrollReveal().reveal('.team_member_section', slideUp);
+        var slideLeft = {
+            distance: '200%',
+            origin: 'left',
+            opacity: null
+        };
+        ScrollReveal().reveal('.albova', slideLeft);
+        var slideLeft = {
+            distance: '200%',
+            origin: 'right',
+            opacity: null
+        };
+        ScrollReveal().reveal('.helene', slideLeft);
+    </script>
+
     <!-- jquery plugins here-->
     <!-- jquery -->
     <script src="js/jquery-1.12.1.min.js"></script>
@@ -422,6 +523,17 @@
     <script src="js/slick.min.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
+
+    <script src="js/assets/jquery.fittext.js"></script>
+    <script src="js/assets/jquery.lettering.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+
+    <script>
+        $(function () {
+            $('.tlt').textillate({ in: { effect: 'rollIn' } });;
+        })
+    </script>
+
 </body>
 
 </html>
